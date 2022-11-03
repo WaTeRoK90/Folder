@@ -1,5 +1,5 @@
-/* селектоз {
-    свойство:значение
+/* селектор {
+    свойство: значение
 } */
 
 /* селектор тега 
@@ -8,3 +8,30 @@
 селектор вложенности
 селектор атрибута
 универсальный селектор*/
+
+h1{
+    color: lime  /*селектор тега */
+}
+body{
+    background-color: black;
+    text-align: center;
+} 
+.Abobus{
+    color: lime;
+    font-size: 100px; /*Селектор класса */
+}
+#skam {
+    color: lime;
+    font-size: 32px;
+    text-decoration: line-through; /*селектор id*/
+}
+[href="#"] { 
+    text-decoration: none;
+    color: lime; /*селектор атрибута*/
+}
+div h1, p {
+    text-decoration: none ; /*селектор вложенности*/
+}
+*{
+    background-color:black ; /*универсальный селектор*/
+}

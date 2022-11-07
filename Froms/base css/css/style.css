@@ -35,3 +35,16 @@ div h1, p {
 *{
     background-color:black ; /*универсальный селектор*/
 }
+.box{
+    width: 300px;
+    height: 301px;
+    border: 100px double lime;
+    background-color: rebeccapurple;
+    padding: 30px;
+    margin: 30px;
+}
+.boba{
+    background-color: rebeccapurple;
+    color: lime;
+    font-size: 30px
+}

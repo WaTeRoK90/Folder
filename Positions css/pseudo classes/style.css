@@ -1,0 +1,72 @@
+/* В CSS существуют такие понятия, как псевдокласс и псевдоэлементы.
+Псевдокласс - это селекторы, которые определяют состояние уже существующих элементов, 
+которое может меняться при определенных условиях.
+:hover {} -псевдокласс состояния, действует при наведении курсора мыши
+:visited {}- сработает при посещении ссылки(страницы)
+:active {}-сработает в момент нажатия на объект
+:focus {}-сработает в момент получения фокуса элемента(для полей ввода)
+Псевдоклассы, помогающие обратиться и задать стили конкретным элементам 
+:first-child {}-обращение к первому элементу
+:last-child {}-обращение к последнему элементу
+:nth-child(){}-обращение к конкретному элементу 
+:nth-child(odd){}-обращение ко всем нечетным элементам
+:nth-child(even){}-обращение ко всем четным элементам */
+
+.block{
+    margin: 0 0 30px 15px;
+}
+
+.block p:nth-child(1){
+    background-color:indigo;
+}
+
+.block p:nth-child(2){
+    text-transform: uppercase;
+}
+
+.block p:nth-child(3){
+    text-decoration: underline;
+    color: grey;
+}
+
+.block p:nth-child(even){
+    color: mediumaquamarine;
+}
+
+.link{
+    color: coral;
+}
+
+.link:visited{
+    color: darkmagenta;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: cadetblue
+}
+
+.textinput{
+    border: 1px solid lime;
+    height: 50PX;
+    padding: 0 15px;
+    font-size: 18px;
+    width:300px;
+    margin: 0 0 10px 15px;
+}
+.textinput:active{
+   border-color: darkslategrey;
+}
+
+.textbutton:hover{
+    position:relative;
+    left: 10000px;
+}
+
+.textinput:focus{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.list li:nth-child(even){
+    color: lime;
+}

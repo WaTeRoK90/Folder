@@ -1,0 +1,42 @@
+.text {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 30px 0;
+}
+
+.text:first-line{
+    color: limegreen;
+}
+
+.text::first-letter{
+    font-size: 50px;
+    color: blueviolet;
+
+}
+
+.list li{
+    list-style-type: none;
+    font-size: 24px;
+    margin: 0 0 20px 0 ;
+
+}
+
+.list li::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gold;
+    margin-right: 10px;
+    
+}
+
+.list li:hover::before{
+    background-color: yellowgreen;
+
+}
+
+/* .list li::after{
+    content: '';
+} */

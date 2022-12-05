@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.item{
+    padding: 40px;
+    font-size: 25px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.item_1{
+    background: white;
+}
+
+.item_2{
+    background: blue;
+}
+
+.item_3{
+    background: red;
+}

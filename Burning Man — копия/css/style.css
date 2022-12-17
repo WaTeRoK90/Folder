@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(../img/header-bg.jpg) no-repeat center center/cover;
+    height: 650px;
+    color: white;
+}
+.header a{
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left:100px;
+}
+
+.logo{
+    margin-top: 60px;
+}
+
+.title{
+    margin-top: 200px;
+    
+}
+
+.title h1{
+    font-size: 70px;
+}
+
+.title p{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
